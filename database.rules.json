@@ -1,0 +1,12 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "channels": {
+      "ch_bb80061fabfd1369ebebb03eb13e": {
+        ".read": true,
+        ".write": true
+      }
+    }
+  }
+}

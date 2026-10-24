@@ -1,0 +1,24 @@
+html,body{margin:0;background:transparent;overflow:hidden}
+#stage{position:absolute;left:0;top:0;width:1920px;height:1080px;transform-origin:0 0}
+.box{position:absolute;inset:0}.e{position:absolute}
+.i{width:100%;height:100%;display:flex;align-items:center;white-space:nowrap;overflow:hidden;box-sizing:border-box}
+#info{display:none;position:fixed;left:6px;bottom:6px;background:#300;color:#fff;font:12px sans-serif;padding:4px 8px;border-radius:4px}
+.ctl{background:#0d0f17;color:#e6e8f0;font:14px Inter,system-ui,sans-serif;overflow:auto}
+.ctl header{display:flex;gap:12px;align-items:center;padding:10px 16px;background:#141826;border-bottom:1px solid #262c44}
+.ctl header b{letter-spacing:3px}.ctl header b span{color:#ff2d75}
+.pill{padding:3px 10px;border-radius:12px;font-size:12px}.pill.on{background:#12361f;color:#4ade80}.pill.off{background:#3a1620;color:#ff6b81}
+.ctl main{display:grid;grid-template-columns:230px 1fr 300px;gap:12px;padding:12px}
+@media(max-width:1000px){.ctl main{grid-template-columns:1fr}}
+.ctl aside,.ctl section{background:#141826;border:1px solid #262c44;border-radius:10px;padding:10px;min-width:0}
+.ctl h4{margin:12px 0 6px;color:#8b93b8;text-transform:uppercase;font-size:11px;letter-spacing:2px}
+#wrap{position:relative;width:100%;overflow:hidden;border-radius:6px;background:repeating-conic-gradient(#1b2036 0 25%,#222845 0 50%) 0 0/24px 24px}
+.bar{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.ctl button{background:#222845;color:#e6e8f0;border:1px solid #333b63;border-radius:6px;padding:6px 10px;cursor:pointer}
+.ctl button:hover{background:#2c3460}.ctl button.hot{background:#ff2d75;border-color:#ff2d75;font-weight:700}
+.ctl input,.ctl select{width:100%;box-sizing:border-box;background:#0d0f17;color:#e6e8f0;border:1px solid #333b63;border-radius:5px;padding:5px}
+.ctl label{display:block;font-size:11px;color:#8b93b8;margin:6px 0}
+.card{display:flex;gap:6px;align-items:center;padding:6px 8px;border-radius:6px;cursor:pointer}.card:hover,.card.on{background:#222845}
+.card small{color:#8b93b8;margin-left:auto}.card .nm{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.card button{padding:2px 6px}
+.sel{outline:3px solid #38bdf8}.hd{position:absolute;right:-10px;bottom:-10px;width:22px;height:22px;background:#38bdf8;cursor:nwse-resize}
+#msg{color:#facc15;margin-left:auto}

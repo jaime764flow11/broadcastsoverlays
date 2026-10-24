@@ -2,13 +2,13 @@ import {initializeApp} from "https://www.gstatic.com/firebasejs/10.12.2/firebase
 import {getDatabase,ref,onValue,set,update,remove} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
 // Pega aquí los valores que te da la consola de Firebase (Configuración del proyecto > Tus apps > SDK).
 export const firebaseConfig={
-  apiKey:"",
-  authDomain:"",
-  databaseURL:"",
-  projectId:"",
-  storageBucket:"",
-  messagingSenderId:"",
-  appId:""
+  apiKey:"AIzaSyAv0ZvDPxO9CJQwWRUj-yr-boxUANLzKk8",
+  authDomain:"overlaysbroadcast.firebaseapp.com",
+  databaseURL:"https://overlaysbroadcast-default-rtdb.europe-west1.firebasedatabase.app/",
+  projectId:"overlaysbroadcast",
+  storageBucket:"overlaysbroadcast.firebasestorage.app",
+  messagingSenderId:"499040630007",
+  appId:"1:499040630007:web:0fa689d69da2bcf9388ff2"
 };
 // ID del canal: debe ser el MISMO que en database.rules.json. Ya viene generado al azar.
 export const CH="ch_bb80061fabfd1369ebebb03eb13e";

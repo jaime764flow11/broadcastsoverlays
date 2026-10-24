@@ -4,7 +4,7 @@ import {getDatabase,ref,onValue,set,update,remove} from "https://www.gstatic.com
 export const firebaseConfig={
   apiKey:"AIzaSyAv0ZvDPxO9CJQwWRUj-yr-boxUANLzKk8",
   authDomain:"overlaysbroadcast.firebaseapp.com",
-  databaseURL:"", // <-- PEGA AQUÍ la URL de Realtime Database (empieza por https://overlaysbroadcast-default-rtdb...)
+  databaseURL:"https://overlaysbroadcast-default-rtdb.europe-west1.firebasedatabase.app/", // <-- PEGA AQUÍ la URL de Realtime Database (empieza por https://overlaysbroadcast-default-rtdb...)
   projectId:"overlaysbroadcast",
   storageBucket:"overlaysbroadcast.firebasestorage.app",
   messagingSenderId:"499040630007",

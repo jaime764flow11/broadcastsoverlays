@@ -1,0 +1,14 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Panel de control · Overlays OBS</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Bebas+Neue&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"></head>
+<body class="ctl"><header><b>OVERLAY<span>STUDIO</span></b><span id="st" class="pill off">Conectando…</span><span id="msg"></span></header>
+<main>
+<aside id="left"><input id="q" placeholder="Buscar…"><h4>Plantillas</h4><div id="tpl"></div><h4>Mis diseños</h4><div id="lib"></div></aside>
+<section><div id="wrap"><div id="stage"></div></div>
+<div class="bar"><button id="prev">▶ Previsualizar</button><button id="stop">■ Detener</button><button id="save">Guardar</button><button id="dup">Duplicar</button><button id="del">Eliminar</button></div>
+<div class="bar"><button id="go" class="hot">Lanzar al directo</button><button id="upd">Actualizar en emisión</button><button id="hide">Ocultar con animación</button><button id="hnow">Ocultar ya</button><button id="clr">Ocultar todos</button></div>
+<h4>En emisión</h4><div id="live"></div></section>
+<aside><div class="bar"><button data-add="text">+ Texto</button><button data-add="rect">+ Rect.</button><button data-add="circle">+ Círculo</button><button data-add="image">+ Imagen</button></div>
+<div class="bar"><button id="udo">↶</button><button id="rdo">↷</button><button id="dupe">Duplicar elem.</button><button id="dele">Borrar elem.</button></div>
+<div id="pp"></div><h4>Capas</h4><div id="layers"></div></aside>
+</main><script type="module" src="control.js"></script></body></html>
